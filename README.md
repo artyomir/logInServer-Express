@@ -26,19 +26,23 @@ RootController - класс, отвечающий за корневой марш
 соответствии с документацией https://www.npmjs.com/package/ts-express-decorators. 
 
 --------------------------------------------------------------------------------
-Реализованы следующие декораторы: 
+Реализованы следующие декораторы:  
+
 get(string), post(string), put(string), delete(string), patch(string)                           
 ./controllers/decorators/routes.ts
+Принимают на маршрут и записывают его в метаданные path метода.
 
 use(RequestHandler)  
 ./controllers/decorators/use.ts
+Принимает middleware функцию и добавляет ее в метаданные middleware.
 
 bodyValidator(string[])
 ./controllers/decorators/bodyValidator.ts
+Принимает клюяи для проверки и записывает их в метаданные validator
 
 controller(string) 
 ./controllers/decorators/controller.ts
+Принимает корневой маршрут и обрабатывает все методы в соответствии с записанной  
+в метаданыые информацие
 
-bodyValidator(string[])
-./controllers/decorators/bodyValidator.ts
 

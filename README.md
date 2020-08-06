@@ -7,17 +7,17 @@ localhost:3000/auth/login (страница входа).
 
 --------------------------------------------------------------------------------
 
-Project setup
+Project setup  
 
-npm init -y\n
-tsc --init
-npm install concurrently nodemoon
-npm install express
-npm install body-session
-npm install coolie-session
-npm install @types/express
-npm install @types/cookie-session
-npm install @types/body-parser
+npm init -y  
+tsc --init  
+npm install concurrently nodemoon  
+npm install express  
+npm install body-session  
+npm install coolie-session  
+npm install @types/express  
+npm install @types/cookie-session  
+npm install @types/body-parser  
   
 --------------------------------------------------------------------------------
 

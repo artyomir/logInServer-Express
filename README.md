@@ -9,7 +9,7 @@ localhost:3000/auth/login (страница входа).
 
 Project setup
 
-npm init -y
+npm init -y\n
 tsc --init
 npm install concurrently nodemoon
 npm install express

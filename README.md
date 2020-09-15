@@ -6,20 +6,6 @@
 
 --------------------------------------------------------------------------------
 
-Project setup  
-
-npm init -y  
-tsc --init  
-npm install concurrently nodemoon  
-npm install express  
-npm install body-session  
-npm install coolie-session  
-npm install @types/express  
-npm install @types/cookie-session  
-npm install @types/body-parser  
-  
---------------------------------------------------------------------------------
-
 RootController - класс, отвечающий за корневой маршрут. LoginController - класс,   
 отвечающий за страницу входа. Реализованы с иоспользование декораторов в   
 соответствии с документацией https://www.npmjs.com/package/ts-express-decorators.   
